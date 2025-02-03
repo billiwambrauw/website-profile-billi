@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f6f9;
+      }
+
+      header {
+        background-color: #3b4a64; /* Lebih lembut dan elegan */
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      header nav {
+        margin-top: 10px;
+      }
+
+      header nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+      }
+
+      header nav a:hover {
+        color: #a1b7bd; /* Warna hijau pastel yang lebih tenang */
+      }
+
+      /* Navbar Media Sosial */
+      .social-nav {
+        display: inline-block;
+        margin-left: 40px; /* Memberikan jarak antara navbar umum dan sosial */
+      }
+
+      .social-nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+      }
+
+      .social-nav a:hover {
+        color: #a1b7bd; /* Warna hijau pastel yang lebih tenang */
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .section {
+        padding: 60px 0;
+        text-align: center;
+        background-color: #ffffff; /* Putih bersih untuk area konten */
+        margin-bottom: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan ringan */
+      }
+
+      .section h2 {
+        color: #2c3e50; /* Warna lebih gelap untuk kontras */
+        font-size: 2.5rem;
+      }
+
+      .section p {
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: #7f8c8d;
+      }
+
+      .about-photo img {
+        width: 160px;
+        border-radius: 50%;
+        border: 6px solid #55b8a4; /* Warna hijau pastel */
+        margin-top: 20px;
+      }
+
+      .skills ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .skills li {
+        background-color: #55b8a4; /* Hijau pastel lebih lembut */
+        margin: 12px 0;
+        padding: 14px;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 6px;
+      }
+
+      footer {
+        background-color: #3b4a64; /* Menyesuaikan header */
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .social-links a {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 1.2rem;
+        background-color: #55b8a4; /* Warna tombol */
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s;
+      }
+
+      .social-links a:hover {
+        background-color: #3b4a64; /* Warna tombol saat hover */
+      }
+
+      .social-links a img {
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Profil Abang Ganteng</h1>
+      <nav>
+        <a href="#about">Profil Saya</a>
+        <a href="#education">Pendidikan & Pengalaman</a>
+        <a href="#projects">Proyek</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact">Kontak</a>
+        <a href="#social-media">Media Sosial</a>
+      </nav>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+      <!-- Section: About Me -->
+      <section id="about" class="section">
+        <h2>Profil Saya</h2>
+        <div class="about-photo">
+          <img src="img/profile.jpg" alt="Foto Saya" />
+        </div>
+        <p>
+          Halo, saya Billi Wambrauw, seorang mahasiswa yang saat ini sedang
+          magang di KPKNL Sorong. Saat ini, saya sedang mengerjakan proyek
+          pembuatan website company profile. Dengan pengalaman yang saya
+          dapatkan dari magang ini, saya berharap dapat terus berkembang dalam
+          bidang pengembangan website dan memberikan kontribusi yang berarti di
+          industri teknologi.
+        </p>
+      </section>
+
+      <!-- Section: Education & Work Experience -->
+      <section id="education" class="section">
+        <h2>Pendidikan & Pengalaman</h2>
+        <p>
+          Saya sedang menempuh pendidikan di Universitas Muhammadiyah Sorong
+          dengan jurusan Teknik Informatika. Selain itu, saya juga memiliki
+          pengalaman magang di KPKNL Sorong yang memberi saya wawasan berharga
+          tentang pengelolaan aset dan teknologi.
+        </p>
+      </section>
+
+      <!-- Section: Projects -->
+      <section id="projects" class="section">
+        <h2>Proyek</h2>
+        <p>
+          Salah satu proyek yang sedang saya kerjakan adalah Pembuatan Website
+          company profile. yang bertujuan untuk membantu perusahaan dalam
+          memperkuat kehadiran online mereka, memudahkan interaksi dengan
+          pelanggan dan mitra bisnis, serta meningkatkan citra profesional
+          perusahaan.
+        </p>
+      </section>
+
+      <!-- Section: Skills -->
+      <section id="skills" class="section">
+        <h2>Keahlian</h2>
+        <div class="skills">
+          <ul>
+            <li>Pemrograman Web</li>
+            <li>Analisis Data</li>
+            <li>Desainer</li>
+            <li>Video Editing</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section: Contact -->
+      <section id="contact" class="section">
+        <h2>Kontak</h2>
+        <p>
+          Jika Anda ingin menghubungi saya, silakan kirim email ke:
+          <a href="mailto:billiwambrauw110803@gmail.com"
+            >billiwambrauw110803@gmail.com</a
+          >
+        </p>
+        <p>Atau kunjungi profil Media Sosial saya dibawah:</p>
+      </section>
+
+      <!-- Section: Media Sosial -->
+      <section id="social-media" class="section">
+        <h2>Media Sosial</h2>
+        <div class="social-links">
+          <a href="https://www.instagram.com/billyzaputra/" target="_blank">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+            />
+            Instagram
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100083848760692"
+            target="_blank"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+              alt="Facebook"
+            />
+            Facebook
+          </a>
+          <a href="https://x.com/billiwambrauw" target="_blank">
+            <img src="img/twitter.png" />
+            Twitter
+          </a>
+          <a href="https://www.youtube.com/feed/you" target="_blank">
+            <img src="img/youtube.png" />
+            YouTube
+          </a>
+          <a href="https://www.tiktok.com/@billiwambrauw" target="_blank">
+            <img src="img/tiktok.jpg" />
+            TikTok
+          </a>
+          <a href="https://saweria.co/bililive" target="_blank">
+            <img src="img/saweria.png" alt="Saweria" />
+            Saweria
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 billiwambrauw. Semua hak cipta dilindungi.</p>
+    </footer>
+  </body>
+</html>
